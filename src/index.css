@@ -1,0 +1,15 @@
+.custom-feedback-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+}
+
+/* Background images for buttons could be added here */
+.custom-feedback-btn:nth-child(1) { background-image: url('/src/assets/emoji1.svg'); }
+.custom-feedback-btn:nth-child(2) { background-image: url('/src/assets/emoji2.svg'); }
+.custom-feedback-btn:nth-child(3) { background-image: url('/src/assets/emoji3.svg'); }
+.custom-feedback-btn:nth-child(4) { background-image: url('/src/assets/emoji4.svg'); }
+.custom-feedback-btn:nth-child(5) { background-image: url('/src/assets/emoji5.svg'); }
