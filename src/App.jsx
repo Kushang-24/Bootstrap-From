@@ -133,7 +133,7 @@ const App = () => {
   return (
     <Container className="mt-5">
       <Row>
-        <Col md={5}>
+        <Col md={4}>
           <h1>User Registration Feedback</h1>
           <Form onSubmit={handleSubmit} className="fw-bold">
             <Row>
@@ -254,7 +254,7 @@ const App = () => {
             )}
           </Form>
         </Col>
-        <Col md={7}>
+        <Col md={8}>
           <h1 className="mb-5">Feedback Records</h1>
           <Table striped bordered hover size="sm">
             <thead>
